@@ -1,0 +1,20 @@
+---
+layout: default
+---
+<div class="container">
+  <ul class="pins pins--all-pins">
+    {% for pin in site.pins limit: site.pins_per_page %}
+      <li class="pin {% if pin.is_featured %} featured {% endif %}">
+        <a href="#">
+          {% if pin.image %}<img src="{{ pin.image }}"/>{% endif %}
+          <div class="pin-description">
+            <h2 class="pin-title">
+              {{ pin.title | markdownify | strip_html }}
+            </h2>
+            <p>{{ pin.leader | markdownify | strip_html }}</p>
+          </div>
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

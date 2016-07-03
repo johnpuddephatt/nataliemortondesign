@@ -1,7 +1,7 @@
 // Typography
-$sans-serif: "Big John";
-$serif: "Museo";
-$base-font-family: $serif;
+$sans-serif: "proxima-nova";
+$serif: "Menlo", "Courier";
+$base-font-family: $sans-serif;
 $header-font-family: $sans-serif;
 
 // Font Sizes
@@ -22,6 +22,7 @@ $header-line-height: 1;
 // Other Sizes
 $base-border-radius: 3px;
 $base-spacing: $base-line-height * ($base-font-size / 2);
+$small-spacing: $base-spacing/2;
 $base-z-index: 0;
 
 // Colors

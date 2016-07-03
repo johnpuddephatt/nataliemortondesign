@@ -1,0 +1,18 @@
+---
+---
+
+{
+    "pins":[
+  {% for pin in site.pins offset: site.pins_per_page %}
+    {
+      "title": "{{ pin.title }}",
+      "image": "{{ pin.image }}",
+      "url": "{{ pin.url }}",
+      "leader": "{{ pin.leader }}"
+      {% if pin.is_featured %}
+      ,  "is_featured": "{{ pin.is_featured }}"
+      {% endif %}
+    }
+    {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]}

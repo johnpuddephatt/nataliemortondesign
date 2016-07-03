@@ -2,29 +2,29 @@
 title: Natalie Morton Design
 timezone: UTC
 collections:
-  posts:
-    title: Posts
+  pins:
+    title: Pins
     output: true
-    is featured: false
-    image: ''
   uploads:
     title: Uploads
     output: true
 defaults:
 - scope:
     path: ''
-    type: posts
+    type: pins
   values:
     title: ''
-    is featured: false
+    is_featured: false
     leader: ''
     image: ''
 email: hello@nataliemortondesign.co.uk
-description: Freelance graphic designer and co-founder of Let’s Dance
+pins_per_page: 12
+header_color: '#E3E4F3'
+description: freelance graphic designer & co-founder of creative collective Let’s Dance
 baseurl: ''
+footer: '&copy; Natalie Morton'
 url: http://nataliemortondesign.co.uk
 twitter_username: nataliemorton
-linkedin_username: https://uk.linkedin.com/pub/john-puddephatt/16/925/3b7
+instagram_username: natleeds
 markdown: kramdown
-gems:
-- octopress-autoprefixer
+logo: /uploads/site-logo.png
