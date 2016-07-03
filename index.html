@@ -6,7 +6,7 @@ layout: default
     {% for pin in site.pins limit: site.pins_per_page %}
       <li class="pin {% if pin.is_featured %} featured {% endif %}">
         <a href="#">
-          {% if pin.image %}<img src="{{ pin.image }}"/>{% endif %}
+          {% if pin.image %}<img src="{{ pin.image | prepend: site.baseurl }}"/>{% endif %}
           <div class="pin-description">
             <h2 class="pin-title">
               {{ pin.title | markdownify | strip_html }}
