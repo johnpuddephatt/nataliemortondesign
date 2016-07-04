@@ -1,10 +1,14 @@
-/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
 
 @import 'bourbon/_bourbon';
 @import 'base/_base';
 @import 'neat/_neat';
 
 /*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+body {
+  color: {{ site.text_color }};
+}
 
 html {
     line-height: $base-line-height;
