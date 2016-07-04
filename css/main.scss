@@ -90,13 +90,13 @@ body {
   svg {
     width: 2 * $base-spacing;
     height: 2 * $base-spacing;
-    //border: .2rem solid  {{ site.text_color }};
+    border: .2rem solid  {{ site.text_color }};
     border-radius: 50%;
   }
 }
 
 header {
-  //background-color: {{ site.primary_color }};
+  background-color: {{ site.primary_color }};
   padding: 3 * $base-spacing 2 * $base-spacing;
   text-align: center;
   position: relative;
@@ -142,7 +142,7 @@ footer {
     &.open {
       width: 100%;
       a {
-        //background-color: {{ site.secondary_color }};
+        background-color: {{ site.secondary_color }};
         @include clearfix;
         color: black;
         display: block;
