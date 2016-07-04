@@ -140,6 +140,7 @@ footer {
       .pin-description {
         display: block;
         font-size: modular-scale(-1);
+        padding: $small-spacing $base-spacing;
       }
     }
     img {
