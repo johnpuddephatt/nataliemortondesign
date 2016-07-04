@@ -7,7 +7,6 @@
 /*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
 
 html {
-    color: {{ site.text_color }};
     line-height: $base-line-height;
     font-size: 46.875%;
     @include media($medium-screen-up) {
@@ -83,13 +82,13 @@ body {
   svg {
     width: 2 * $base-spacing;
     height: 2 * $base-spacing;
-    border: .2rem solid  {{ site.text_color }};;
+    //border: .2rem solid  {{ site.text_color }};
     border-radius: 50%;
   }
 }
 
 header {
-  background-color: {{ site.primary_color }};
+  //background-color: {{ site.primary_color }};
   padding: 3 * $base-spacing 2 * $base-spacing;
   text-align: center;
   position: relative;
@@ -135,7 +134,7 @@ footer {
     &.open {
       width: 100%;
       a {
-        background-color: {{ site.secondary_color }};
+        //background-color: {{ site.secondary_color }};
         @include clearfix;
         color: black;
         display: block;
