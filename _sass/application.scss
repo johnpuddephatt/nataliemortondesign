@@ -113,7 +113,7 @@ footer {
 .pins {
   transition: opacity 2s;
 }
-.loading .pins{
+.pins.loading {
   opacity: 0;
   transition: opacity 0s;
 }
