@@ -5,6 +5,9 @@ collections:
   pins:
     title: Pins
     output: true
+  posts:
+    title: Posts
+    output: true
   uploads:
     title: Uploads
     output: true
@@ -19,14 +22,15 @@ defaults:
     image: ''
 email: hello@nataliemortondesign.co.uk
 pins_per_page: 12
-primary_color: '#E3E4F3'
-secondary_color: '#E1F9EB'
-text_color: '#222'
-description: freelance graphic designer & co-founder of creative collective Let’s Dance
-baseurl: '/nataliemortondesign'
-footer: '&copy; Natalie Morton'
+primary_color: "#E3E4F3"
+secondary_color: "#E1F9EB"
+text_color: "#222"
+description: freelance graphic designer & co-founder of creative collective Let’s
+  Dance
+baseurl: "/nataliemortondesign"
+footer: "&copy; Natalie Morton"
 url: http://nataliemortondesign.co.uk
 twitter_username: nataliemorton
 instagram_username: natleeds
 markdown: kramdown
-logo: /uploads/site-logo.png
+logo: "/uploads/site-logo.png"
