@@ -1,5 +1,6 @@
 ---
 ---
+
 @import 'bourbon/_bourbon';
 @import 'base/_base';
 @import 'neat/_neat';
@@ -7,7 +8,7 @@
 /*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
 
 html {
-    color: {{ site.text_color }};;
+    color: {{ site.text_color }};
     line-height: $base-line-height;
     font-size: 46.875%;
     @include media($medium-screen-up) {
