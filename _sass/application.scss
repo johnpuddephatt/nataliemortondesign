@@ -131,27 +131,19 @@ footer {
     }
     &.open {
       width: 100%;
-      img {
-        width: 50%;
-        float: left;
-        padding-right: $base-spacing/2;
-      }
       a {
         background-color: #E1F9EA;
         @include clearfix;
-        display: flex;
-        align-items: flex-end;
         color: black;
+        display: block;
       }
       .pin-description {
         display: block;
-        float: left;
-        width: 50%;
-        padding: $base-spacing 2 * $base-spacing $base-spacing/2 1.5 * $base-spacing;
       }
     }
     img {
       width: 100%;
+      display: block;
     }
     @include media($medium-screen-up) {
       width: 33.3333%;
@@ -159,12 +151,32 @@ footer {
       &.featured {
         width: 66.6666%;
       }
+      &.open {
+        width: 100%;
+        a {
+          display: flex;
+          align-items: flex-end;
+        }
+        img {
+          width: 66.6667%;
+          float: left;
+          padding-right: $base-spacing/2;
+        }
+        .pin-description {
+          float: left;
+          width: 33%;
+          padding: $base-spacing 2 * $base-spacing $base-spacing/2 1.5 * $base-spacing;
+        }
+      }
     }
     @include media($large-screen-up) {
       width: 25%;
       float: left;
       &.featured {
         width: 50%;
+      }
+      &.open {
+        width: 66.6667%;
       }
     }
     @include media($xl-screen-up) {
@@ -175,12 +187,6 @@ footer {
       }
       &.open {
         width: 60%;
-        .pin-description {
-          width: 33.333%
-        }
-        img {
-          width: 66.667%;
-        }
       }
     }
   }
