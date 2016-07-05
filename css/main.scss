@@ -120,37 +120,42 @@ footer {
   clear: both;
 }
 
-.pin img{
+.pin a{
   transition: opacity 2s;
 }
-.pin img.loading {
+.pin a.loading {
   opacity: 0;
   transition: opacity 0s;
 }
 
 .pins--all-pins {
+  a {
+    background-color: {{ site.secondary_colors[0] }};
+    @include clearfix;
+    color: black;
+    display: block;
+  }
   li {
     @include clearfix;
     padding: $base-spacing;
     width: 50%;
+    {% for color in site.secondary_colors %}
+      &:nth-child({{ forloop.index }}n) a{
+        background-color: {{ color }};
+      }
+    {% endfor %}
     .pin-description {
       display: none;
+      font-size: modular-scale(-1);
+      padding: $small-spacing $base-spacing;
     }
     &.featured {
       width: 100%;
     }
     &.open {
       width: 100%;
-      a {
-        background-color: {{ site.secondary_color }};
-        @include clearfix;
-        color: black;
-        display: block;
-      }
       .pin-description {
         display: block;
-        font-size: modular-scale(-1);
-        padding: $small-spacing $base-spacing;
       }
     }
     img {

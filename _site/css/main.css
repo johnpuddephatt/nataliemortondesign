@@ -440,13 +440,21 @@ footer {
   margin-top: 1.6rem;
   clear: both; }
 
-.pin img {
+.pin a {
   transition: opacity 2s; }
 
-.pin img.loading {
+.pin a.loading {
   opacity: 0;
   transition: opacity 0s; }
 
+.pins--all-pins a {
+  background-color: #E1F9EB;
+  color: black;
+  display: block; }
+  .pins--all-pins a::after {
+    clear: both;
+    content: "";
+    display: table; }
 .pins--all-pins li {
   padding: 1.6rem;
   width: 50%; }
@@ -454,24 +462,20 @@ footer {
     clear: both;
     content: "";
     display: table; }
+  .pins--all-pins li:nth-child(1n) a {
+    background-color: #E1F9EB; }
+  .pins--all-pins li:nth-child(2n) a {
+    background-color: #E5D3E3; }
   .pins--all-pins li .pin-description {
-    display: none; }
+    display: none;
+    font-size: 0.75019em;
+    padding: 0.8rem 1.6rem; }
   .pins--all-pins li.featured {
     width: 100%; }
   .pins--all-pins li.open {
     width: 100%; }
-    .pins--all-pins li.open a {
-      background-color: #E1F9EB;
-      color: black;
-      display: block; }
-      .pins--all-pins li.open a::after {
-        clear: both;
-        content: "";
-        display: table; }
     .pins--all-pins li.open .pin-description {
-      display: block;
-      font-size: 0.75019em;
-      padding: 0.8rem 1.6rem; }
+      display: block; }
   .pins--all-pins li img {
     width: 100%;
     display: block; }

@@ -23,7 +23,9 @@ defaults:
 email: hello@nataliemortondesign.co.uk
 pins_per_page: 12
 primary_color: "#E3E4F3"
-secondary_color: "#E1F9EB"
+secondary_colors:
+  - "#E1F9EB"
+  - "#E5D3E3"
 text_color: "#222"
 description: freelance graphic designer & co-founder of creative collective Let’s
   Dance
