@@ -350,8 +350,10 @@ html {
   box-sizing: inherit; }
 
 /*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+body {
+  color: #222; }
+
 html {
-  color: #222;
   line-height: 1.77778;
   font-size: 46.875%; }
   @media screen and (min-width: 640px) {
@@ -415,10 +417,11 @@ body {
   .social svg {
     width: 3.2rem;
     height: 3.2rem;
-    border: .2rem solid black;
+    border: .2rem solid  #222;
     border-radius: 50%; }
 
 header {
+  background-color: #E3E4F3;
   padding: 4.8rem 3.2rem;
   text-align: center;
   position: relative;
@@ -437,12 +440,12 @@ footer {
   margin-top: 1.6rem;
   clear: both; }
 
-.pins {
+.pin img {
   transition: opacity 2s; }
 
-.loading .pins {
+.pin img.loading {
   opacity: 0;
-  transition: opacity 2s; }
+  transition: opacity 0s; }
 
 .pins--all-pins li {
   padding: 1.6rem;
@@ -457,38 +460,48 @@ footer {
     width: 100%; }
   .pins--all-pins li.open {
     width: 100%; }
-    .pins--all-pins li.open img {
-      width: 50%;
-      float: left;
-      padding-right: 0.8rem; }
     .pins--all-pins li.open a {
-      background-color: #E1F9EA;
-      display: flex;
-      align-items: flex-end;
-      color: black; }
+      background-color: #E1F9EB;
+      color: black;
+      display: block; }
       .pins--all-pins li.open a::after {
         clear: both;
         content: "";
         display: table; }
     .pins--all-pins li.open .pin-description {
       display: block;
-      float: left;
-      width: 50%;
-      padding: 1.6rem 3.2rem 0.8rem 2.4rem; }
+      font-size: 0.75019em;
+      padding: 0.8rem 1.6rem; }
   .pins--all-pins li img {
-    width: 100%; }
+    width: 100%;
+    display: block; }
   @media screen and (min-width: 640px) {
     .pins--all-pins li {
       width: 33.3333%;
       float: left; }
       .pins--all-pins li.featured {
-        width: 66.6666%; } }
+        width: 66.6666%; }
+      .pins--all-pins li.open {
+        width: 100%; }
+        .pins--all-pins li.open a {
+          display: flex;
+          align-items: flex-end; }
+        .pins--all-pins li.open img {
+          width: 66.6667%;
+          float: left;
+          padding-right: 0.8rem; }
+        .pins--all-pins li.open .pin-description {
+          float: left;
+          width: 33%;
+          padding: 1.6rem 3.2rem 0.8rem 2.4rem; } }
   @media screen and (min-width: 1024px) {
     .pins--all-pins li {
       width: 25%;
       float: left; }
       .pins--all-pins li.featured {
-        width: 50%; } }
+        width: 50%; }
+      .pins--all-pins li.open {
+        width: 75%; } }
   @media screen and (min-width: 1400px) {
     .pins--all-pins li {
       width: 20%;
@@ -496,11 +509,7 @@ footer {
       .pins--all-pins li.featured {
         width: 40%; }
       .pins--all-pins li.open {
-        width: 60%; }
-        .pins--all-pins li.open .pin-description {
-          width: 33.333%; }
-        .pins--all-pins li.open img {
-          width: 66.667%; } }
+        width: 60%; } }
 
 /* ==========================================================================
    Media Queries
