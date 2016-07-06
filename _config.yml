@@ -22,7 +22,7 @@ defaults:
     image: ''
 email: hello@nataliemortondesign.co.uk
 pins_per_page: 12
-primary_color: "#E3E4F3"
+primary_color: "#00e55b"
 secondary_colors:
 - "#E1F9EB"
 - "#E5D3E3"
