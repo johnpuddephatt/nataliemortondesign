@@ -7,8 +7,7 @@
     {
       "title": "{{ post.title }}",
       "image": "{{ post.image | prepend: site.baseurl }}",
-      "url": "{{ post.url }}",
-      "leader": "{{ post.content }}"
+      "url": "{{ post.url }}"
       {% if post.is_featured %}
       ,  "is_featured": "{{ post.is_featured }}"
       {% endif %}
