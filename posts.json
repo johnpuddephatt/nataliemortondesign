@@ -8,7 +8,7 @@
       "title": "{{ pin.title }}",
       "image": "{{ pin.image | prepend: site.baseurl }}",
       "url": "{{ pin.url }}",
-      "leader": "{{ pin.leader }}"
+      "leader": "{{ pin.content }}"
       {% if pin.is_featured %}
       ,  "is_featured": "{{ pin.is_featured }}"
       {% endif %}
