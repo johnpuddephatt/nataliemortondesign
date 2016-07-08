@@ -9,18 +9,15 @@ collections:
     title: Uploads
     output: true
 defaults:
-- scope:
+-
+  scope:
     path: ''
     type: posts
   values:
     title: ''
     image: ''
     is_featured: false
-- scope:
-    path: ''
-    type: pages
-  values:
-    layout: default
+
 email: hello@nataliemortondesign.co.uk
 pins_per_page: 12
 primary_color: "#e3e4f3"
