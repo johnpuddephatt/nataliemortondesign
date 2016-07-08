@@ -18,7 +18,7 @@ defaults:
     is_featured: false
 - scope:
     path: ''
-    type: page
+    type: pages
   values:
     layout: default
 email: hello@nataliemortondesign.co.uk
