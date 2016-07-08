@@ -6,7 +6,7 @@
     {% else %}
       <h1 class="site-title">{{ site.title }}</h1>
     {% endif %}
-    <h2 class="site-description">{{ site.description }}</h2>
+    <h2 class="site-description">{{ site.description | markdownify }}</h2>
 
 
     <ul class="social">
