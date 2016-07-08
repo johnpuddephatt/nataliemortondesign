@@ -16,6 +16,11 @@ defaults:
     title: ''
     image: ''
     is_featured: false
+- scope:
+    path: ''
+    type: page
+  values:
+    layout: default
 email: hello@nataliemortondesign.co.uk
 pins_per_page: 12
 primary_color: "#e3e4f3"
