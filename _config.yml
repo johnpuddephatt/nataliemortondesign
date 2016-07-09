@@ -2,6 +2,9 @@
 title: Natalie Morton Design
 timezone: UTC
 collections:
+  pins:
+    title: Pins
+    output: true
   posts:
     title: Posts
     output: true
