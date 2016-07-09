@@ -3,13 +3,13 @@
 
 {
     "pins":[
-  {% for post in site.posts offset: site.pins_per_page %}
+  {% for pin in site.pins offset: site.pins_per_page %}
     {
-      "title": "{{ post.title }}",
-      "image": "{{ post.image | prepend: site.baseurl }}",
-      "url": "{{ post.url }}"
-      {% if post.is_featured %}
-      ,  "is_featured": "{{ post.is_featured }}"
+      "title": "{{ pin.title }}",
+      "image": "{{ pin.image | prepend: site.baseurl }}",
+      "url": "{{ pin.url }}"
+      {% if pin.is_featured %}
+      ,  "is_featured": "{{ pin.is_featured }}"
       {% endif %}
     }
     {% unless forloop.last %},{% endunless %}

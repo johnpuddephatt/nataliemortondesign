@@ -5,22 +5,18 @@ collections:
   pins:
     title: Pins
     output: true
-  posts:
-    title: Posts
-    output: true
   uploads:
     title: Uploads
     output: true
 defaults:
 - scope:
     path: ''
-    type: posts
+    type: pins
   values:
     title: ''
     image: ''
     is_featured: false
     layout: Default
-    position: ''
 email: hello@nataliemortondesign.co.uk
 pins_per_page: 12
 primary_color: "#e3e4f3"
