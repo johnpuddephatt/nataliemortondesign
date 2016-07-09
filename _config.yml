@@ -5,6 +5,9 @@ collections:
   pins:
     title: Pins
     output: true
+  posts:
+    title: Posts
+    output: true
   uploads:
     title: Uploads
     output: true
