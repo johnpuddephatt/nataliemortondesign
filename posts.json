@@ -2,7 +2,7 @@
 ---
 
 {
-    "pins":[
+    "posts":[
   {% for pin in site.pins offset: site.pins_per_page %}
     {
       "title": "{{ pin.title }}",
