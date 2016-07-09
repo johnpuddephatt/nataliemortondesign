@@ -433,7 +433,13 @@ header {
   font-weight: 600; }
 
 .site-description {
-  font-size: 1em; }
+  font-size: 1em;
+  transition: 300ms;
+  opacity: 0;
+  transform: translateY(0.5em); }
+  .wf-active .site-description {
+    opacity: 1;
+    transform: translateY(0); }
 
 footer {
   text-align: center;

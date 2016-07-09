@@ -111,6 +111,13 @@ header {
 
 .site-description {
   font-size: modular-scale(0);
+  transition: $default-transition;
+  opacity: 0;
+  transform: translateY(.5em);
+  .wf-active & {
+  opacity: 1;
+  transform: translateY(0);
+  }
 }
 
 
@@ -120,7 +127,7 @@ footer {
   clear: both;
 }
 
-.pin a{
+.pin a {
   transition: opacity 2s;
 }
 .pin a.loading {

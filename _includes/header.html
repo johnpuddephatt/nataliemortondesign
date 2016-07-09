@@ -1,11 +1,12 @@
 <header class="site-header">
   <div class="container">
-
-    {% if site.logo %}
-      <img src="{{ site.logo | prepend: site.baseurl }}" class="site-logo" alt="{{ site.title }}"/>
-    {% else %}
-      <h1 class="site-title">{{ site.title }}</h1>
-    {% endif %}
+    <a href="{{ site.baseurl }}">
+      {% if site.logo %}
+        <img src="{{ site.logo | prepend: site.baseurl }}" class="site-logo" alt="{{ site.title }}"/>
+      {% else %}
+        <h1 class="site-title">{{ site.title }}</h1>
+      {% endif %}
+    </a>
     <h2 class="site-description">{{ site.description | markdownify }}</h2>
 
 
