@@ -4,7 +4,7 @@ layout: Default
 
 <div class="container">
   <ul class="pins pins--all-pins">
-    {% for pin in site.pins limit: site.pins_per_page %}
+    {% for pin in site.pins limit: site.pins_per_page | sort:"position" %}
       <li class="pin {% if pin.is_featured %} featured {% endif %}">
         <a href="#" class="loading">
           {% if pin.image %}<img src="{{ pin.image | prepend: site.baseurl }}" />{% endif %}

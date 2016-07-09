@@ -3,7 +3,7 @@
 
 {
     "pins":[
-  {% for pin in site.pins offset: site.pins_per_page %}
+  {% for pin in site.pins offset: site.pins_per_page | sort:"position" %}
     {
       "title": "{{ pin.title }}",
       "leader": "{{ pin.content }}",
