@@ -371,6 +371,9 @@ html {
   background: #b3d4fc;
   text-shadow: none; }
 
+a {
+  color: #AFDDD2; }
+
 hr {
   display: block;
   height: 1px;
@@ -421,7 +424,7 @@ body {
     border-radius: 50%; }
 
 header {
-  background-color: #e3e4f3;
+  background-color: #E3E4F3;
   padding: 4.8rem 3.2rem;
   text-align: center;
   position: relative;
@@ -443,8 +446,14 @@ header {
 
 footer {
   text-align: center;
-  margin-top: 1.6rem;
-  clear: both; }
+  margin: 1.6rem 1.6rem 3.2rem;
+  padding: 3.2rem 1.6rem;
+  clear: both;
+  background-color: #AFDDD2; }
+  footer p {
+    margin-bottom: 0;
+    color: white;
+    font-weight: 600; }
 
 .pin a {
   transition: opacity 2s; }
@@ -520,6 +529,22 @@ footer {
         width: 40%; }
       .pins--all-pins li.open {
         width: 60%; } }
+
+.about-page {
+  margin: 3.2rem auto 6.4rem;
+  padding-top: 19.2rem;
+  padding-right: 12.8rem;
+  width: 640px;
+  position: relative; }
+  .about-page p {
+    font-weight: 600; }
+  .about-page img {
+    position: absolute;
+    height: 28.8rem;
+    width: auto;
+    top: 0;
+    right: -25%;
+    z-index: -1; }
 
 /* ==========================================================================
    Media Queries

@@ -1,10 +1,11 @@
 ---
 layout: Default
 ---
+{% assign pins = site.pins | sort:"position" %}
 
 <div class="container">
   <ul class="pins pins--all-pins">
-    {% for pin in site.pins limit: site.pins_per_page | sort:"position" %}
+    {% for pin in pins limit: site.pins_per_page %}
       <li class="pin {% if pin.is_featured %} featured {% endif %}">
         <a href="#" class="loading">
           {% if pin.image %}<img src="{{ pin.image | prepend: site.baseurl }}" />{% endif %}
@@ -19,3 +20,7 @@ layout: Default
     {% endfor %}
   </ul>
 </div>
+
+<script type="text/javascript" src="{{ site.baseurl }}/scripts/packery.pkgd.min.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/scripts/imagesloaded.pkgd.min.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/scripts/main.min.js"></script>

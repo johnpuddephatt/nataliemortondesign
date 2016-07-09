@@ -5,25 +5,23 @@ collections:
   pins:
     title: Pins
     output: true
-  posts:
-    title: Posts
-    output: true
   uploads:
     title: Uploads
     output: true
 defaults:
-- scope:
-    path: ''
-    type: pins
-  values:
-    title: ''
-    image: ''
-    is_featured: false
-    layout: Default
+  -
+    scope:
+      path: ''
+      type: pins
+    values:
+      title: ''
+      image: ''
+      is_featured: false
 email: hello@nataliemortondesign.co.uk
 pins_per_page: 12
-primary_color: "#e3e4f3"
-secondary_colors:
+primary_color: "#E3E4F3"
+secondary_color: "#AFDDD2"
+tertiary_colors:
 - "#E1F9EB"
 - "#E5D3E3"
 text_color: "#222"
@@ -32,7 +30,7 @@ description: freelance graphic designer & co-founder of creative collective Letâ
 baseurl: "/nataliemortondesign"
 footer: "&copy; Natalie Morton"
 url: http://nataliemortondesign.co.uk
-twitter_username: nataliemorton
+linkedin: nataliemorton
 instagram_username: natleeds
 markdown: kramdown
-logo: "/uploads/site-logo.png"
+logo_image: "/uploads/site-logo.png"

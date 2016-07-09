@@ -35,6 +35,10 @@ html {
     text-shadow: none;
 }
 
+a {
+  color:  {{ site.secondary_color }};
+}
+
 hr {
     display: block;
     height: 1px;
@@ -123,8 +127,15 @@ header {
 
 footer {
   text-align: center;
-  margin-top: $base-spacing;
+  margin: $base-spacing $base-spacing 2 * $base-spacing;
+  padding: 2 * $base-spacing $base-spacing;
   clear: both;
+  background-color: {{ site.secondary_color }};
+  p {
+    margin-bottom: 0;
+    color: white;
+    font-weight: 600;
+  }
 }
 
 .pin a {
@@ -137,7 +148,7 @@ footer {
 
 .pins--all-pins {
   a {
-    background-color: {{ site.secondary_colors[0] }};
+    background-color: {{ site.tertiary_colors[0] }};
     @include clearfix;
     color: black;
     display: block;
@@ -146,7 +157,7 @@ footer {
     @include clearfix;
     padding: $base-spacing;
     width: 50%;
-    {% for color in site.secondary_colors %}
+    {% for color in site.tertiary_colors %}
       &:nth-child({{ forloop.index }}n) a{
         background-color: {{ color }};
       }
@@ -213,6 +224,26 @@ footer {
         width: 60%;
       }
     }
+  }
+}
+
+
+.about-page {
+  margin: 2 * $base-spacing auto 4 * $base-spacing;
+  padding-top: 12 * $base-spacing;
+  padding-right: 8 * $base-spacing;
+  width: $medium-screen;
+  position: relative;
+  p {
+    font-weight: 600;
+  }
+  img {
+  position: absolute;
+  height: 18 * $base-spacing;
+  width: auto;
+  top: 0;
+  right: -25%;
+  z-index: -1;
   }
 }
 
