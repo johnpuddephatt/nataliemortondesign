@@ -6,7 +6,7 @@
   {% for pin in site.pins offset: site.pins_per_page | sort:"position" %}
     {
       "title": "{{ pin.title }}",
-      "leader": "{{ pin.content }}",
+      "leader": "{{ pin.content | markdownify | strip_html }}",
       "image": "{{ pin.image | prepend: site.baseurl }}",
       "url": "{{ pin.url }}"
       {% if pin.is_featured %}
