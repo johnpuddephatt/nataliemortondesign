@@ -1,7 +1,7 @@
 ---
 title: Huddersfield Students' Union
 date: 2015-06-01 00:00:00 Z
-position: 9
+position: 10
 image: "/uploads/Untitled-16.jpg"
 ---
 
