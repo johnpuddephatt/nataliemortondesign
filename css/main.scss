@@ -85,8 +85,12 @@ body {
 
 .social {
   position: absolute;
-  top: 2 * $base-spacing;
-  right: 2 * $base-spacing;
+  top: $small-spacing;
+  right: $small-spacing;
+  @include media($medium-screen-up) {
+    top: 2 * $base-spacing;
+    right: 2 * $base-spacing;
+  }
   li {
     float: left;
     margin: $small-spacing;
@@ -101,10 +105,13 @@ body {
 
 header {
   background-color: {{ site.primary_color }};
-  padding: 3 * $base-spacing 2 * $base-spacing;
+  padding: 4 * $base-spacing 2 * $base-spacing 2 * $base-spacing;
   text-align: center;
   position: relative;
   margin: 2 * $base-spacing $base-spacing $base-spacing;
+  @include media($medium-screen-up) {
+    padding: 3 * $base-spacing 2 * $base-spacing;
+  }
 }
 
 .site-logo {
@@ -229,21 +236,28 @@ footer {
 
 
 .about-page {
-  margin: 2 * $base-spacing auto 4 * $base-spacing;
-  padding-top: 12 * $base-spacing;
-  padding-right: 8 * $base-spacing;
-  width: $medium-screen;
+  margin: 0 auto;
+  padding: 2 * $base-spacing $base-spacing;
+  max-width: $medium-screen;
   position: relative;
+  @include media($medium-screen-up) {
+    padding: 12 * $base-spacing $base-spacing 8 * $base-spacing;
+    margin: 2 * $base-spacing auto 4 * $base-spacing;
+
+  }
   p {
     font-weight: 600;
   }
   img {
-  position: absolute;
-  height: 18 * $base-spacing;
-  width: auto;
-  top: 0;
-  right: -25%;
-  z-index: -1;
+    max-height: 18 * $base-spacing;
+    width: auto;
+    margin-bottom: $base-spacing;
+    @include media($medium-screen-up) {
+      top: 0;
+      position: absolute;
+      right: -25%;
+      z-index: -1;
+    }
   }
 }
 
