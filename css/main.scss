@@ -186,6 +186,7 @@ footer {
     img {
       width: 100%;
       display: block;
+      backface-visibility: hidden;
     }
     @include media($medium-screen-up) {
       width: 33.3333%;
