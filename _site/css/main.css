@@ -450,6 +450,8 @@ header {
   .wf-active .site-description {
     opacity: 1;
     transform: translateY(0); }
+  .site-description a {
+    color: #fff; }
 
 footer {
   text-align: center;
@@ -488,6 +490,8 @@ footer {
     background-color: #E1F9EB; }
   .pins--all-pins li:nth-child(2n) a {
     background-color: #E5D3E3; }
+  .pins--all-pins li:nth-child(3n) a {
+    background-color: #fcd3c1; }
   .pins--all-pins li .pin-description {
     display: none;
     font-size: 0.75019em;
@@ -500,7 +504,8 @@ footer {
       display: block; }
   .pins--all-pins li img {
     width: 100%;
-    display: block; }
+    display: block;
+    backface-visibility: hidden; }
   @media screen and (min-width: 640px) {
     .pins--all-pins li {
       width: 33.3333%;
