@@ -112,6 +112,9 @@ header {
   @include media($medium-screen-up) {
     padding: 3 * $base-spacing 2 * $base-spacing;
   }
+  p {
+    margin-bottom: 0;
+  }
 }
 
 .site-logo {
