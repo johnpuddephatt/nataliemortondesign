@@ -21,8 +21,8 @@ defaults:
     is_featured: false
 email: nat@letsdance.agency
 pins_per_page: 20
-primary_color: "#E3E4F3"
-secondary_color: "#AFDDD2"
+primary_color: "#e3e4f3"
+secondary_color: "#E3E4F3"
 tertiary_colors:
 - "#E1F9EB"
 - "#E5D3E3"
