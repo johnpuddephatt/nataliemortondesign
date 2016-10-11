@@ -112,9 +112,6 @@ header {
   @include media($medium-screen-up) {
     padding: 3 * $base-spacing 2 * $base-spacing;
   }
-  p {
-    margin-bottom: 0;
-  }
 }
 
 .site-logo {
@@ -128,9 +125,13 @@ header {
   transition: $default-transition;
   opacity: 0;
   transform: translateY(.5em);
+  margin-bottom: 0;
   .wf-active & {
   opacity: 1;
   transform: translateY(0);
+  }
+  p {
+    margin-bottom: 0;
   }
   a {
     color: #fff;
@@ -155,8 +156,11 @@ footer {
   transition: opacity 2s;
 }
 .pin a.loading {
-  opacity: 0;
+  //opacity: 0;
   transition: opacity 0s;
+  img {
+    background-color: blue;
+  }
 }
 
 .pins--all-pins {

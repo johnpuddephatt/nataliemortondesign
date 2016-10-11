@@ -372,7 +372,7 @@ html {
   text-shadow: none; }
 
 a {
-  color: #AFDDD2; }
+  color: #E3E4F3; }
 
 hr {
   display: block;
@@ -428,7 +428,7 @@ body {
     border-radius: 50%; }
 
 header {
-  background-color: #E3E4F3;
+  background-color: #e3e4f3;
   padding: 6.4rem 3.2rem 3.2rem;
   text-align: center;
   position: relative;
@@ -446,10 +446,13 @@ header {
   font-size: 1em;
   transition: 300ms;
   opacity: 0;
-  transform: translateY(0.5em); }
+  transform: translateY(0.5em);
+  margin-bottom: 0; }
   .wf-active .site-description {
     opacity: 1;
     transform: translateY(0); }
+  .site-description p {
+    margin-bottom: 0; }
   .site-description a {
     color: #fff; }
 
@@ -458,7 +461,7 @@ footer {
   margin: 1.6rem 1.6rem 3.2rem;
   padding: 3.2rem 1.6rem;
   clear: both;
-  background-color: #AFDDD2; }
+  background-color: #E3E4F3; }
   footer p {
     margin-bottom: 0;
     color: white;
@@ -468,8 +471,9 @@ footer {
   transition: opacity 2s; }
 
 .pin a.loading {
-  opacity: 0;
   transition: opacity 0s; }
+  .pin a.loading img {
+    background-color: blue; }
 
 .pins--all-pins a {
   background-color: #E1F9EB;
