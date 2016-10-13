@@ -410,22 +410,14 @@ textarea {
 body {
   margin: 1.6rem; }
 
-.social {
-  position: absolute;
-  top: 0.8rem;
-  right: 0.8rem; }
-  @media screen and (min-width: 640px) {
-    .social {
-      top: 3.2rem;
-      right: 3.2rem; } }
-  .social li {
-    float: left;
-    margin: 0.8rem; }
-  .social svg {
-    width: 3.2rem;
-    height: 3.2rem;
-    border: .2rem solid  #222;
-    border-radius: 50%; }
+.social li {
+  display: inline-block;
+  margin: 0.8rem; }
+.social svg {
+  width: 3.2rem;
+  height: 3.2rem;
+  border: .2rem solid  #222;
+  border-radius: 50%; }
 
 header {
   background-color: #e3e4f3;
@@ -436,6 +428,14 @@ header {
   @media screen and (min-width: 640px) {
     header {
       padding: 4.8rem 3.2rem; } }
+  header .social {
+    position: absolute;
+    top: 0.8rem;
+    right: 0.8rem; }
+    @media screen and (min-width: 640px) {
+      header .social {
+        top: 3.2rem;
+        right: 3.2rem; } }
 
 .site-logo {
   max-height: 24rem;
@@ -456,6 +456,11 @@ header {
   .site-description a {
     color: #fff; }
 
+.loading-spinner {
+  display: none; }
+  .loading-spinner.loading {
+    display: block; }
+
 footer {
   text-align: center;
   margin: 1.6rem 1.6rem 3.2rem;
@@ -466,6 +471,13 @@ footer {
     margin-bottom: 0;
     color: white;
     font-weight: 600; }
+  footer .social {
+    margin-top: 1.6rem; }
+
+.pin {
+  position: absolute;
+  left: -9999px;
+  top: -9999px; }
 
 .pin a {
   transition: opacity 2s; }
@@ -473,7 +485,7 @@ footer {
 .pin a.loading {
   transition: opacity 0s; }
   .pin a.loading img {
-    background-color: blue; }
+    background-color: whitesmoke; }
 
 .pins--all-pins a {
   background-color: #E1F9EB;
@@ -661,3 +673,45 @@ footer {
   h2,
   h3 {
     page-break-after: avoid; } }
+.loading-spinner:before,
+.loading-spinner:after,
+.loading-spinner {
+  border-radius: 50%;
+  width: 2.5em;
+  height: 2.5em;
+  animation-fill-mode: both;
+  animation: load 1.8s infinite ease-in-out; }
+
+.loading-spinner {
+  color: #E3E4F3;
+  font-size: 10px;
+  margin: 80px auto;
+  position: relative;
+  text-indent: -9999em;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s; }
+
+.loading-spinner:before {
+  left: -3.5em;
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s; }
+
+.loading-spinner:after {
+  left: 3.5em; }
+
+.loading-spinner:before,
+.loading-spinner:after {
+  content: '';
+  position: absolute;
+  top: 0; }
+
+@keyframes load {
+  0%,
+  80%,
+  100% {
+    box-shadow: 0 2.5em 0 -1.3em; }
+  40% {
+    box-shadow: 0 2.5em 0 0; } }
