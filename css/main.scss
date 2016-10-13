@@ -152,6 +152,12 @@ footer {
   }
 }
 
+.pin {
+  position: absolute;
+  left: -9999px;
+  top: -9999px;
+}
+
 .pin a {
   transition: opacity 2s;
 }
@@ -159,7 +165,7 @@ footer {
   //opacity: 0;
   transition: opacity 0s;
   img {
-    background-color: blue;
+    background-color: whitesmoke;
   }
 }
 
