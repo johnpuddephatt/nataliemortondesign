@@ -5,3 +5,4 @@ position: 7
 image: "/uploads/Water.jpg"
 ---
 
+Campaign encouraging people to drink more water
