@@ -5,3 +5,4 @@ position: 82
 image: "/uploads/Foxy.jpg"
 ---
 
+Hand painted illustration for Christmas card design
