@@ -6,3 +6,4 @@ image: "/uploads/soulight-1.gif"
 is_featured: false
 ---
 
+Brand identity for Soulight, a health and wellbeing app 
