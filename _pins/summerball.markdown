@@ -5,3 +5,4 @@ position: 28
 image: "/uploads/Summerball-1.jpg"
 ---
 
+Branding for a summer event
