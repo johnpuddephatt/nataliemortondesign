@@ -5,3 +5,4 @@ position: 1
 image: "/uploads/RHSU%2010.jpg"
 ---
 
+Royal Holloway Students' Union 
