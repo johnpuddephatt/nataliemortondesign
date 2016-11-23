@@ -5,3 +5,4 @@ position: 72
 image: "/uploads/Canopy.jpg"
 ---
 
+Brand identity for homeless housing charity Canopy
