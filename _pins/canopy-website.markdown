@@ -1,7 +1,7 @@
 ---
 title: Canopy Website
 date: 2016-10-11 18:02:00 Z
-position: 21
+position: 26
 image: "/uploads/Canopy%20Gif-5995cb.gif"
 ---
 

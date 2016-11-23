@@ -1,7 +1,7 @@
 ---
 title: Soulight 1
 date: 2016-09-28 23:05:00 Z
-position: 19
+position: 24
 image: "/uploads/soulight-1.gif"
 is_featured: false
 ---

@@ -1,7 +1,7 @@
 ---
 title: Building
 date: 2016-09-28 22:33:00 Z
-position: 60
+position: 65
 image: "/uploads/Building.jpg"
 ---
 
