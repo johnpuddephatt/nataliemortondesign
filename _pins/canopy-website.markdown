@@ -1,7 +1,7 @@
 ---
 title: Canopy Housing
 date: 2016-10-11 18:02:00 Z
-position: 24
+position: 23
 image: "/uploads/Canopy%20Gif-5995cb.gif"
 is_featured: true
 ---
