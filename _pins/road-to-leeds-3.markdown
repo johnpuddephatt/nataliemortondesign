@@ -5,3 +5,4 @@ position: 26
 image: "/uploads/Road-to-Leeds-3.jpg"
 ---
 
+Student guide to University life
