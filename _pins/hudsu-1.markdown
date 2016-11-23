@@ -5,4 +5,4 @@ position: 57
 image: "/uploads/HUDSU-1.jpg"
 ---
 
-Branding and signgage project for Huddersfield Students' Union
+Branding and signage project for Huddersfield Students' Union
