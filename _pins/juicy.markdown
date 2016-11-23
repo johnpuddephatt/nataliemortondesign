@@ -6,3 +6,4 @@ image: "/uploads/Juicy.jpg"
 is_featured: true
 ---
 
+Branding for music event, Juicy
