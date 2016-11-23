@@ -5,3 +5,4 @@ position: 19
 image: "/uploads/Wharfdale-Natural-Health.jpg"
 ---
 
+Brand identity for natural health clinic based in Otley
