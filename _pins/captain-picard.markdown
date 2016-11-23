@@ -1,7 +1,7 @@
 ---
 title: Captain Picard
 date: 2016-09-28 22:34:00 Z
-position: 60
+position: 59
 image: "/uploads/Captain-Picard.jpg"
 ---
 
