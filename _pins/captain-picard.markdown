@@ -5,3 +5,4 @@ position: 59
 image: "/uploads/Captain-Picard.jpg"
 ---
 
+Branding and signage for Huddersfield Students' Union
