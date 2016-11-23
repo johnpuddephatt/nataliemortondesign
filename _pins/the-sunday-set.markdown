@@ -6,3 +6,4 @@ image: "/uploads/The-Sunday-Set.jpg"
 is_featured: true
 ---
 
+Gig listings and event guide
