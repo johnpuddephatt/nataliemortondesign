@@ -5,3 +5,4 @@ position: 11
 image: "/uploads/Soulight-3.jpg"
 ---
 
+Branding for Soulight, a health and wellbeing app 
