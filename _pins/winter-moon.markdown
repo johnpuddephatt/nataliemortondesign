@@ -5,3 +5,4 @@ position: 4
 image: "/uploads/Winter-Moon.jpg"
 ---
 
+Illustration to celebrate the winter solstice
