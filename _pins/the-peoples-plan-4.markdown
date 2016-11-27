@@ -1,7 +1,7 @@
 ---
 title: The People's Plan
 date: 2016-09-28 22:57:00 Z
-position: 82
+position: 83
 image: "/uploads/People's-Plan-4.jpg"
 ---
 

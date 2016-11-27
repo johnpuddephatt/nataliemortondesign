@@ -1,6 +1,7 @@
 ---
 title: Brand guidelines
 date: 2016-11-27 19:28:00 Z
+position: 11
 image: "/uploads/RHSU-Brand-Guidelines.png"
 ---
 
