@@ -5,4 +5,4 @@ position: 11
 image: "/uploads/RHSU-Brand-Guidelines.png"
 ---
 
-A snapshot of the brand guidelines created for Royal Holloway Students' Union.
+A snapshot of the brand guidelines created for Royal Holloway Students' Union
