@@ -38,6 +38,7 @@
       "title": "Canopy Housing",
       "image": "/uploads/Canopy%20Gif-5995cb.gif",
       "url": "/pins/canopy-website.html",
+      "is_featured": "true",
       "content": "<p>Branding and site design for Canopy, a housing project that renovates empty and derelict houses to provide affordable housing for people who are homeless</p>\n"
     }
     ,
@@ -263,6 +264,14 @@
     ,
   
     {
+      "title": "Guide to your local cinema",
+      "image": "/uploads/HPPH-1.jpg",
+      "url": "/pins/hpph-1.html",
+      "content": "<p>Events guide as part of a wider campaign for local cinema, the Hyde Park Picture House</p>\n"
+    }
+    ,
+  
+    {
       "title": "Cityscape",
       "image": "/uploads/LCH-1.jpg",
       "url": "/pins/lch.html",
@@ -284,6 +293,14 @@
       "image": "/uploads/HUDSU-4.jpg",
       "url": "/pins/hudsu-4.html",
       "content": "<p>Light up sign designed for Huddersfield Students’ Union as part of their rebrand</p>\n"
+    }
+    ,
+  
+    {
+      "title": "Wonder Water",
+      "image": "/uploads/Water.jpg",
+      "url": "/pins/wonder-water.html",
+      "content": "<p>Campaign encouraging people to drink more water</p>\n"
     }
     ,
   
@@ -357,14 +374,6 @@
       "image": "/uploads/Community-2.jpg",
       "url": "/pins/community-2.html",
       "content": "<p>Printed guide for a Leeds Community strategy</p>\n"
-    }
-    ,
-  
-    {
-      "title": "Guide to your local cinema",
-      "image": "/uploads/HPPH-1.jpg",
-      "url": "/pins/hpph-1.html",
-      "content": "<p>Events guide as part of a wider campaign for local cinema, the Hyde Park Picture House</p>\n"
     }
     ,
   
@@ -458,14 +467,6 @@
     ,
   
     {
-      "title": "Shop local",
-      "image": "/uploads/Community-3.jpg",
-      "url": "/pins/community-3.html",
-      "content": "<p>Guide and map to shopping locally and independently in Leeds</p>\n"
-    }
-    ,
-  
-    {
       "title": "Hyde Park Picture House",
       "image": "/uploads/HPPH-9.jpg",
       "url": "/pins/hpph-9.html",
@@ -498,6 +499,15 @@
     ,
   
     {
+      "title": "Building the brand",
+      "image": "/uploads/RHSU-Loop-2.gif",
+      "url": "/pins/building-the-brand.html",
+      "is_featured": "true",
+      "content": "<p>Brand guidelines for Royal Holloway Students’ Union</p>\n"
+    }
+    ,
+  
+    {
       "title": "Hyde Park Picture House",
       "image": "/uploads/HPPH-2.jpg",
       "url": "/pins/hpph-2.html",
@@ -518,6 +528,14 @@
       "image": "/uploads/People's-Plan-4.jpg",
       "url": "/pins/the-peoples-plan-4.html",
       "content": "<p>Branding and site design created for community initiative in the West Midlands, The People’s Plan</p>\n"
+    }
+    ,
+  
+    {
+      "title": "Shop local",
+      "image": "/uploads/Community-3.jpg",
+      "url": "/pins/community-3.html",
+      "content": "<p>Guide and map to shopping locally and independently in Leeds</p>\n"
     }
     ,
   
