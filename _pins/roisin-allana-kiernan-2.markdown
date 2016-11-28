@@ -1,7 +1,7 @@
 ---
 title: Om
 date: 2016-10-04 18:00:00 Z
-position: 39
+position: 38
 image: "/uploads/RAK-516bdc.jpg"
 ---
 
