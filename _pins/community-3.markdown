@@ -1,7 +1,7 @@
 ---
 title: Shop local
 date: 2016-09-28 22:37:00 Z
-position: 85
+position: 86
 image: "/uploads/Community-3.jpg"
 ---
 
