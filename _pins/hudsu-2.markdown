@@ -1,7 +1,7 @@
 ---
 title: Huddersfield Student's Union
 date: 2016-09-28 22:45:00 Z
-position: 82
+position: 83
 image: "/uploads/HUD-2.jpg"
 ---
 
